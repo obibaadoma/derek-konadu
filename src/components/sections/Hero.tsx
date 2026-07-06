@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="mt-8 flex flex-wrap gap-4">
             <Button
               href="#projects"
-              className="bg-slate-900 text-white hover:bg-slate-700"
+              className="border border-slate-300 text-slate-700 hover:bg-slate-100"
             >
               View Projects
             </Button>
