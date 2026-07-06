@@ -5,7 +5,9 @@ type CardProps = {
 
 const Card = ({ children, className = "" }: CardProps) => {
   return (
-    <div className={`rounded-2xl border border-slate-200 bg-white p-6 shadow-sm ${className}`}>
+    <div
+      className={`rounded-3xl border border-slate-200/80 bg-white/80 p-6 shadow-sm shadow-slate-200/60 backdrop-blur transition hover:-translate-y-1 hover:shadow-lg ${className}`}
+    >
       {children}
     </div>
   );
