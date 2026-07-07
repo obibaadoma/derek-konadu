@@ -7,30 +7,23 @@ import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
-import Philosophy from "./components/sections/Philosophy";
+import Experience from "./components/sections/Experience";
 
 const App = () => {
   return (
     <>
       <Navbar />
 
-<main>
-      <Hero />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Experience />
+        <Contact />
+      </main>
 
-      <About />
-
-      <Philosophy />
-
-      <Projects />
-
-      <Skills />
-
-      <Experience />
-
-      <Contact />
-    </main>
-
-    <Footer />
+      <Footer />
     </>
   );
 };
