@@ -1,16 +1,25 @@
 export const personalInfo = {
-  name: "Derek Konadu",
+  name: "Derek Akrasi Konadu",
   role: "Full-Stack Software Engineer",
-  location: "Ghana",
+  location: "Takoradi, Ghana",
+  email: "akrasikonadu@yahoo.com",
+  github: "https://github.com/obibaadoma",
+  linkedin: "https://www.linkedin.com/in/derek-akrasi-konadu-187453151/",
+
   summary:
-    "I build scalable web applications and business-focused software systems using React, TypeScript, Python, FastAPI, Node.js, and PostgreSQL.",
+    "Full-Stack Software Engineer with experience building scalable web applications, enterprise integrations, backend APIs, and secure transaction-driven systems.",
+
   about:
-    "I am a Full-Stack Software Engineer with experience building modern web applications, backend APIs, database-driven platforms, and enterprise-style systems. My work focuses on creating practical software that solves real business problems, from reconciliation platforms to shop management and SaaS tools.",
+    "I design and build secure, scalable software systems that solve real business problems. My experience spans modern web applications, backend API development, telecom billing platforms, enterprise integrations, reconciliation workflows, and production support for high-volume systems.",
+
   strengths: [
-    "Full-stack web application development",
-    "Backend API design and database-driven systems",
-    "React and TypeScript frontend development",
-    "PostgreSQL database design",
-    "Business-focused software problem solving",
+    "Full-Stack Web Development",
+    "Backend API Design",
+    "Enterprise System Integration",
+    "Application Security",
+    "Telecom Billing Systems",
+    "Financial Reconciliation",
+    "Database Design",
+    "System Reliability",
   ],
 };
