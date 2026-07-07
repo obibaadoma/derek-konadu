@@ -26,4 +26,11 @@ export const philosophy = {
         "Authentication, authorization, secure APIs, and responsible handling of data are fundamental parts of every application I build.",
     },
   ],
+  currentlyExploring: [
+  "AWS Cloud Architecture",
+  "Application Security",
+  "Distributed Systems",
+  "Performance Optimization",
+  "AI-assisted Software Engineering",
+],
 };
