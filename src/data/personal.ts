@@ -4,7 +4,7 @@ export const personalInfo = {
   location: "Takoradi, Ghana",
   email: "akrasikonadu@yahoo.com",
   github: "https://github.com/obibaadoma",
-  linkedin: "https://www.linkedin.com/in/derek-akrasi-konadu-187453151/",
+  linkedin: "https://www.linkedin.com/in/derek-konadu-187453151/",
 
   summary:
     "Full-Stack Software Engineer with experience building scalable web applications, enterprise integrations, backend APIs, and secure transaction-driven systems.",
