@@ -5,7 +5,7 @@ type SectionTitleProps = {
 
 const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
   return (
-    <div className="mb-12 max-w-3xl">
+    <div className="mb-6 max-w-3xl">
       <p className="mb-3 text-sm font-semibold tracking-[0.25em] text-blue-600 uppercase dark:text-blue-400">
         Portfolio
       </p>

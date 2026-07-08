@@ -15,7 +15,7 @@ const About = () => {
           />
         </FadeIn>
 
-        <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr]">
+        <div className="grid items-start gap-8 lg:grid-cols-[1.5fr_1fr]">
           <SlideUp>
             <div>
               <p className="text-lg leading-8 text-slate-600 dark:text-slate-300">
@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </SlideUp>
 
-          <SlideUp delay={0.15}>
+          <SlideUp delay={0.15} className="lg:-mt-24">
             <Card>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white">
                 Core Strengths

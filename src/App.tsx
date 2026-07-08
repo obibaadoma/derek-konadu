@@ -23,7 +23,6 @@ const App = () => {
 
       <main id="main-content">
         <Hero />
-
         <Suspense fallback={<LoadingSpinner />}>
           <About />
           <Philosophy />
