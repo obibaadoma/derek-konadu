@@ -27,10 +27,10 @@ export const philosophy = {
     },
   ],
   currentlyExploring: [
-  "AWS Cloud Architecture",
-  "Application Security",
-  "Distributed Systems",
-  "Performance Optimization",
-  "AI-assisted Software Engineering",
-],
+    "AWS Cloud Architecture",
+    "Application Security",
+    "Distributed Systems",
+    "Performance Optimization",
+    "AI-assisted Software Engineering",
+  ],
 };

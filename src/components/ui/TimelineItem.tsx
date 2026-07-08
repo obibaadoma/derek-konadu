@@ -19,9 +19,9 @@ const TimelineItem = ({
 }: TimelineItemProps) => {
   return (
     <article className="relative border-l border-slate-200 pl-8 dark:border-slate-800">
-      <span className="absolute -left-2 top-2 h-4 w-4 rounded-full border-4 border-white bg-blue-600 shadow dark:border-slate-950" />
+      <span className="absolute top-2 -left-2 h-4 w-4 rounded-full border-4 border-white bg-blue-600 shadow dark:border-slate-950" />
 
-      <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 dark:text-blue-400">
+      <p className="text-sm font-semibold tracking-[0.25em] text-blue-600 uppercase dark:text-blue-400">
         {period}
       </p>
 

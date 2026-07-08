@@ -15,13 +15,21 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 35%),
+    radial-gradient(
+      circle at top left,
+      rgba(37, 99, 235, 0.08),
+      transparent 35%
+    ),
     #f8fafc;
 }
 
 .dark body {
   background:
-    radial-gradient(circle at top left, rgba(37, 99, 235, 0.16), transparent 35%),
+    radial-gradient(
+      circle at top left,
+      rgba(37, 99, 235, 0.16),
+      transparent 35%
+    ),
     #020617;
 }
 
@@ -34,4 +42,41 @@ button,
 input,
 textarea {
   font: inherit;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 9999;
+  border-radius: 9999px;
+  background: #ffffff;
+  color: #020617;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.dark .skip-link {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
 }
