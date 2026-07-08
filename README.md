@@ -42,12 +42,12 @@ Then open http://localhost:5173 in your browser.
 
 ## Available Scripts
 
-- `npm run dev` — start the local development server
-- `npm run build` — create a production build
-- `npm run preview` — preview the production build locally
-- `npm run lint` — run ESLint
-- `npm run format` — format the codebase with Prettier
-- `npm run format:check` — check formatting
+- `npm run dev` ï¿½ start the local development server
+- `npm run build` ï¿½ create a production build
+- `npm run preview` ï¿½ preview the production build locally
+- `npm run lint` ï¿½ run ESLint
+- `npm run format` ï¿½ format the codebase with Prettier
+- `npm run format:check` ï¿½ check formatting
 
 ## Project Structure
 
