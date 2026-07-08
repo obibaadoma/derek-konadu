@@ -33,7 +33,7 @@ const ProjectCard = ({
         <div className="grid gap-0 lg:grid-cols-[0.9fr_1.4fr]">
           <div className="flex min-h-80 flex-col justify-between bg-slate-950 p-8 text-white">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
+              <p className="text-sm font-semibold tracking-[0.25em] text-blue-300 uppercase">
                 {type}
               </p>
 
@@ -61,7 +61,7 @@ const ProjectCard = ({
           <div className="p-8">
             <div className="grid gap-6 md:grid-cols-3">
               <div>
-                <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+                <h4 className="text-sm font-semibold tracking-[0.2em] text-slate-500 uppercase dark:text-slate-400">
                   Challenge
                 </h4>
                 <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
@@ -70,7 +70,7 @@ const ProjectCard = ({
               </div>
 
               <div>
-                <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+                <h4 className="text-sm font-semibold tracking-[0.2em] text-slate-500 uppercase dark:text-slate-400">
                   Solution
                 </h4>
                 <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
@@ -79,7 +79,7 @@ const ProjectCard = ({
               </div>
 
               <div>
-                <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+                <h4 className="text-sm font-semibold tracking-[0.2em] text-slate-500 uppercase dark:text-slate-400">
                   Outcome
                 </h4>
                 <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
@@ -88,7 +88,7 @@ const ProjectCard = ({
               </div>
             </div>
 
-            <h4 className="mt-8 text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+            <h4 className="mt-8 text-sm font-semibold tracking-[0.2em] text-slate-500 uppercase dark:text-slate-400">
               Key Features
             </h4>
 

@@ -32,7 +32,7 @@ export const skillCategories = [
       "SQLAlchemy",
       "Database Design",
       "Query Optimization",
-      "Oracle Database"
+      "Oracle Database",
     ],
   },
   {
@@ -56,6 +56,17 @@ export const skillCategories = [
       "Multi-Tenant Architecture",
       "Background Processing",
       "Agile Development",
+    ],
+  },
+  {
+    title: "System Integration & Enterprise Applications",
+    skills: [
+      "Oracle SOA Suite 11g/12c",
+      "Oracle Service Bus 11g/12c",
+      "Identity  and Access Management",
+      "Application Development Framework",
+      "Linux Administration",
+      "Shell Scripting",
     ],
   },
 ];

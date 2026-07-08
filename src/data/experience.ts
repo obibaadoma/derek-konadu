@@ -12,7 +12,14 @@ export const experiences = [
       "Diagnosed and resolved production issues to improve application stability and performance.",
       "Participated in peer code reviews and promoted clean, maintainable, and well-documented code.",
     ],
-    technologies: ["React", "TypeScript", "JavaScript", "Node.js", "REST APIs", "Git"],
+    technologies: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "REST APIs",
+      "Git",
+    ],
   },
   {
     company: "Tech Mahindra",

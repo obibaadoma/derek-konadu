@@ -5,7 +5,7 @@ import { personalInfo } from "../../data";
 
 const stats = [
   { value: "8+", label: "Years in Software & IT" },
-  { value: "Enterprise", label: "Integration Background" },
+  { value: "Enterprise", label: "System Integration and ERP" },
   { value: "Backend", label: "APIs & Data Systems" },
   { value: "FinTech", label: "Reconciliation Focus" },
 ];
@@ -16,13 +16,13 @@ const Hero = () => {
       id="home"
       className="relative overflow-hidden bg-slate-950 py-28 text-white sm:py-36"
     >
-      <div className="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
-      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-700/10 blur-3xl" />
+      <div className="absolute top-0 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
+      <div className="absolute right-0 bottom-0 h-80 w-80 rounded-full bg-blue-700/10 blur-3xl" />
 
       <Container>
         <div className="relative mx-auto max-w-5xl text-center">
           <FadeIn>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-blue-300">
+            <p className="text-sm font-semibold tracking-[0.35em] text-blue-300 uppercase">
               Hi, I&apos;m
             </p>
           </FadeIn>
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button
                 href="#projects"
-                className="bg-white text-slate-950 hover:bg-slate-200"
+                className="border border-white/20 text-white hover:bg-white/10"
               >
                 View Projects
               </Button>
@@ -60,7 +60,7 @@ const Hero = () => {
                 download
                 className="border border-white/20 text-white hover:bg-white/10"
               >
-                Download Résumé
+                Download Resume
               </Button>
 
               <Button

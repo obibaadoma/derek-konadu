@@ -17,7 +17,10 @@ const Experience = () => {
 
         <div className="space-y-12">
           {experiences.map((experience, index) => (
-            <SlideUp key={`${experience.company}-${experience.period}`} delay={index * 0.1}>
+            <SlideUp
+              key={`${experience.company}-${experience.period}`}
+              delay={index * 0.1}
+            >
               <TimelineItem {...experience} />
             </SlideUp>
           ))}

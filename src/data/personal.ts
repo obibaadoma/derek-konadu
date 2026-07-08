@@ -1,7 +1,7 @@
 export const personalInfo = {
-  name: "Derek Akrasi Konadu",
+  name: "Derek Konadu",
   role: "Full-Stack Software Engineer",
-  location: "Takoradi, Ghana",
+  location: "Accra, Ghana",
   email: "akrasikonadu@yahoo.com",
   github: "https://github.com/obibaadoma",
   linkedin: "https://www.linkedin.com/in/derek-konadu-187453151/",
