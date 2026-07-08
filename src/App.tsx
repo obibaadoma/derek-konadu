@@ -16,20 +16,24 @@ const App = () => {
 
   return (
     <>
-      <Navbar theme={theme} onThemeToggle={toggleTheme} />
+  <a href="#main-content" className="skip-link">
+    Skip to main content
+  </a>
 
-      <main>
-        <Hero />
-        <About />
-        <Philosophy />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Contact />
-      </main>
+  <Navbar />
 
-      <Footer />
-    </>
+  <main id="main-content">
+    <Hero />
+    <About />
+    <Philosophy />
+    <Projects />
+    <Skills />
+    <Experience />
+    <Contact />
+  </main>
+
+  <Footer />
+</>
   );
 };
 
