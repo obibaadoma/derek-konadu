@@ -31,14 +31,22 @@ const Hero = () => {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Button href="#projects" className="bg-white text-slate-950 hover:bg-slate-200">
-                View Projects
-              </Button>
+  <Button href="#projects" className="bg-white text-slate-950 hover:bg-slate-200">
+    View Projects
+  </Button>
 
-              <Button href="#contact" className="border border-white/20 text-white hover:bg-white/10">
-                Contact Me
-              </Button>
-            </div>
+  <Button href="#contact" className="border border-white/20 text-white hover:bg-white/10">
+    Contact Me
+  </Button>
+
+  <Button
+  href="/Derek-Akrasi-Konadu-Resume.pdf"
+  download
+  className="border border-white/20 text-white hover:bg-white/10"
+>
+  Download Résumé
+</Button>
+</div>
           </div>
 
           <div className="mt-16 grid gap-4 sm:grid-cols-3">
