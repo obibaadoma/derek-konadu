@@ -1,63 +1,85 @@
 import Container from "../layout/Container";
 import Button from "../ui/Button";
+import { FadeIn, SlideUp } from "../ui/animations";
 import { personalInfo } from "../../data";
 
 const stats = [
-  { value: "4+", label: "Years in Software & IT" },
-  { value: "5+", label: "Years with Transaction Systems" },
-  { value: "Enterprise", label: "Systems & Integration Focus" },
+  { value: "8+", label: "Years in Software & IT" },
+  { value: "Enterprise", label: "Integration Background" },
+  { value: "Backend", label: "APIs & Data Systems" },
+  { value: "FinTech", label: "Reconciliation Focus" },
 ];
 
 const Hero = () => {
   return (
-    <section id="home" className="relative overflow-hidden bg-slate-950 py-28 text-white sm:py-36">
+    <section
+      id="home"
+      className="relative overflow-hidden bg-slate-950 py-28 text-white sm:py-36"
+    >
       <div className="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
+      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-700/10 blur-3xl" />
 
       <Container>
-        <div className="relative">
-          <div className="max-w-4xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-300">
+        <div className="relative mx-auto max-w-5xl text-center">
+          <FadeIn>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-blue-300">
+              Hi, I&apos;m
+            </p>
+          </FadeIn>
+
+          <SlideUp delay={0.1}>
+            <h1 className="mt-5 text-5xl font-extrabold tracking-tight sm:text-7xl">
+              {personalInfo.name}
+            </h1>
+          </SlideUp>
+
+          <SlideUp delay={0.2}>
+            <p className="mt-5 text-xl font-semibold text-blue-200">
               {personalInfo.role}
             </p>
+          </SlideUp>
 
-            <h1 className="mt-6 text-5xl font-bold tracking-tight sm:text-7xl">
-              Building secure, scalable software for enterprise systems and modern businesses.
-            </h1>
-
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              I&apos;m {personalInfo.name}, a software engineer focused on full-stack applications,
-              backend APIs, enterprise integrations, transaction-driven systems and reliable
-              business software.
+          <SlideUp delay={0.3}>
+            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+              Building secure, scalable enterprise software, backend APIs,
+              reconciliation systems, and modern business applications.
             </p>
+          </SlideUp>
 
-            <div className="mt-10 flex flex-wrap gap-4">
-  <Button href="#projects" className="bg-white text-slate-950 hover:bg-slate-200">
-    View Projects
-  </Button>
-
-  <Button href="#contact" className="border border-white/20 text-white hover:bg-white/10">
-    Contact Me
-  </Button>
-
-  <Button
-  href="/Derek-Akrasi-Konadu-Resume.pdf"
-  download
-  className="border border-white/20 text-white hover:bg-white/10"
->
-  Download Résumé
-</Button>
-</div>
-          </div>
-
-          <div className="mt-16 grid gap-4 sm:grid-cols-3">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur"
+          <SlideUp delay={0.4}>
+            <div className="mt-10 flex flex-wrap justify-center gap-4">
+              <Button
+                href="#projects"
+                className="bg-white text-slate-950 hover:bg-slate-200"
               >
-                <p className="text-3xl font-bold text-white">{stat.value}</p>
-                <p className="mt-2 text-sm text-slate-300">{stat.label}</p>
-              </div>
+                View Projects
+              </Button>
+
+              <Button
+                href="/Derek-Akrasi-Konadu-Resume.pdf"
+                download
+                className="border border-white/20 text-white hover:bg-white/10"
+              >
+                Download Résumé
+              </Button>
+
+              <Button
+                href="#contact"
+                className="border border-white/20 text-white hover:bg-white/10"
+              >
+                Contact Me
+              </Button>
+            </div>
+          </SlideUp>
+
+          <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {stats.map((stat, index) => (
+              <SlideUp key={stat.label} delay={0.1 * index}>
+                <div className="rounded-3xl border border-white/10 bg-white/5 p-6 text-left backdrop-blur">
+                  <p className="text-3xl font-bold text-white">{stat.value}</p>
+                  <p className="mt-2 text-sm text-slate-300">{stat.label}</p>
+                </div>
+              </SlideUp>
             ))}
           </div>
         </div>
