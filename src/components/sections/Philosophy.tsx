@@ -5,14 +5,14 @@ import { philosophy } from "../../data";
 
 const Philosophy = () => {
   return (
-    <section id="philosophy" className="bg-slate-50 py-24">
+    <section id="philosophy" className="bg-slate-50 py-24 dark:bg-slate-950">
       <Container>
         <SectionTitle title={philosophy.title} subtitle={philosophy.intro} />
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {philosophy.principles.map((principle) => (
             <Card key={principle.title}>
-              <h3 className="text-xl font-bold text-slate-900">
+              <h3 className="text-xl font-bold text-slate-900 dark:text-white">
                 {principle.title}
               </h3>
 
