@@ -6,7 +6,7 @@ type ButtonProps = {
 
 const Button = ({ children, href, className = "" }: ButtonProps) => {
   const baseClasses =
-    "inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2";
+    "inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-950";
 
   if (href) {
     return (

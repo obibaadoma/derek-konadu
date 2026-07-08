@@ -5,7 +5,7 @@ import { experiences } from "../../data";
 
 const Experience = () => {
   return (
-    <section id="experience" className="bg-white py-24">
+    <section id="experience" className="bg-white py-24 dark:bg-slate-950">
       <Container>
         <SectionTitle
           title="Professional Experience"

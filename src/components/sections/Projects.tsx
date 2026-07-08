@@ -5,7 +5,7 @@ import { projects } from "../../data/projects";
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-slate-50 py-24">
+    <section id="projects" className="bg-slate-50 py-24 dark:bg-slate-950">
       <Container>
         <SectionTitle
           title="Featured Projects"
