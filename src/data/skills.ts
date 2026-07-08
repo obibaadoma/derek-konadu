@@ -58,4 +58,15 @@ export const skillCategories = [
       "Agile Development",
     ],
   },
+  {
+    title: "System Integration & Enterprise Applications",
+    skills: [
+      "Oracle SOA Suite 11g/12c",
+      "Oracle Service Bus 11g/12c",
+      "Identity  and Access Management",
+      "Application Development Framework",
+      "Linux Administration",
+      "Shell Scripting",
+    ],
+  },
 ];
