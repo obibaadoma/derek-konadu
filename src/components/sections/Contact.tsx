@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
                 href={`mailto:${personalInfo.email}`}
-                className="bg-white text-slate-950 hover:bg-slate-200"
+                className="border border-white/20 text-white hover:bg-white/10"
               >
                 Email Me
               </Button>

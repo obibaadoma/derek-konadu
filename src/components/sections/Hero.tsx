@@ -5,7 +5,7 @@ import { personalInfo } from "../../data";
 
 const stats = [
   { value: "8+", label: "Years in Software & IT" },
-  { value: "Enterprise", label: "Integration Background" },
+  { value: "Enterprise", label: "System Integration and ERP" },
   { value: "Backend", label: "APIs & Data Systems" },
   { value: "FinTech", label: "Reconciliation Focus" },
 ];
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button
                 href="#projects"
-                className="bg-white text-slate-950 hover:bg-slate-200"
+                className="border border-white/20 text-white hover:bg-white/10"
               >
                 View Projects
               </Button>
@@ -60,7 +60,7 @@ const Hero = () => {
                 download
                 className="border border-white/20 text-white hover:bg-white/10"
               >
-                Download Résumé
+                Download Resume
               </Button>
 
               <Button
