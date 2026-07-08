@@ -30,7 +30,7 @@ const Navbar = () => {
         >
           <a
             href="#home"
-            className="rounded-md text-lg font-bold text-slate-900 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:text-white dark:focus:ring-offset-slate-950"
+            className="rounded-md text-lg font-bold text-slate-900 transition focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none dark:text-white dark:focus:ring-offset-slate-950"
           >
             Derek Konadu
           </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               aria-label="Toggle navigation menu"
               aria-expanded={isOpen}
               aria-controls="mobile-navigation"
-              className="rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:border-slate-700 dark:text-slate-200 dark:focus:ring-offset-slate-950"
+              className="rounded-lg border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 transition focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none dark:border-slate-700 dark:text-slate-200 dark:focus:ring-offset-slate-950"
             >
               {isOpen ? "Close" : "Menu"}
             </button>
@@ -64,7 +64,7 @@ const Navbar = () => {
         {isOpen && (
           <div
             id="mobile-navigation"
-            className="border-t border-slate-200 py-4 dark:border-slate-800 lg:hidden"
+            className="border-t border-slate-200 py-4 lg:hidden dark:border-slate-800"
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (

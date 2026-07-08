@@ -8,7 +8,7 @@ const Contact = () => {
       <Container>
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
+            <p className="text-sm font-semibold tracking-[0.25em] text-blue-300 uppercase">
               Contact
             </p>
 
@@ -44,11 +44,11 @@ const Contact = () => {
                 GitHub
               </Button>
               <Button
-              href="/Derek-Akrasi-Konadu-Resume.pdf"
-              className="border border-white/20 text-white hover:bg-white/10"
-            >
-              Download Résumé
-            </Button>
+                href="/Derek-Akrasi-Konadu-Resume.pdf"
+                className="border border-white/20 text-white hover:bg-white/10"
+              >
+                Download Résumé
+              </Button>
             </div>
           </div>
 

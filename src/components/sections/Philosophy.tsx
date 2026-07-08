@@ -23,26 +23,26 @@ const Philosophy = () => {
           ))}
         </div>
         <div className="mt-12 rounded-3xl border border-blue-100 bg-blue-50/60 p-8">
-  <h3 className="text-xl font-bold text-slate-900">
-    Currently Exploring
-  </h3>
+          <h3 className="text-xl font-bold text-slate-900">
+            Currently Exploring
+          </h3>
 
-  <p className="mt-3 max-w-3xl text-slate-600">
-    Areas I am actively strengthening through hands-on learning,
-    projects, and continuous professional development.
-  </p>
+          <p className="mt-3 max-w-3xl text-slate-600">
+            Areas I am actively strengthening through hands-on learning,
+            projects, and continuous professional development.
+          </p>
 
-  <div className="mt-6 flex flex-wrap gap-3">
-    {philosophy.currentlyExploring.map((item) => (
-      <span
-        key={item}
-        className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm"
-      >
-        {item}
-      </span>
-    ))}
-  </div>
-</div>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {philosophy.currentlyExploring.map((item) => (
+              <span
+                key={item}
+                className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
       </Container>
     </section>
   );

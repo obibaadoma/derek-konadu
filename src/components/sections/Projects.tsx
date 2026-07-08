@@ -17,7 +17,7 @@ const Projects = () => {
             <Card key={project.title}>
               <div className="grid gap-8 lg:grid-cols-[1fr_1.4fr]">
                 <div className="rounded-2xl bg-slate-100 p-8">
-                  <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
+                  <p className="text-sm font-semibold tracking-wide text-slate-500 uppercase">
                     {project.type}
                   </p>
 

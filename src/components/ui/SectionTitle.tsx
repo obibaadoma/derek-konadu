@@ -6,11 +6,11 @@ type SectionTitleProps = {
 const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
   return (
     <div className="mb-12 max-w-3xl">
-      <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 dark:text-blue-400">
+      <p className="mb-3 text-sm font-semibold tracking-[0.25em] text-blue-600 uppercase dark:text-blue-400">
         Portfolio
       </p>
 
-      <h2 className="text-3xl font-bold tracking-tight text-slate-950 dark:text-white sm:text-4xl">
+      <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl dark:text-white">
         {title}
       </h2>
 

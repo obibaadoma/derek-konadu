@@ -32,7 +32,7 @@ export const skillCategories = [
       "SQLAlchemy",
       "Database Design",
       "Query Optimization",
-      "Oracle Database"
+      "Oracle Database",
     ],
   },
   {

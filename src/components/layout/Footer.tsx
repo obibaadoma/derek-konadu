@@ -24,7 +24,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit Derek Konadu's GitHub profile"
-              className="rounded-md transition hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:hover:text-white dark:focus:ring-offset-slate-950"
+              className="rounded-md transition hover:text-slate-950 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none dark:hover:text-white dark:focus:ring-offset-slate-950"
             >
               GitHub
             </a>
@@ -34,7 +34,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit Derek Konadu's LinkedIn profile"
-              className="rounded-md transition hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:hover:text-white dark:focus:ring-offset-slate-950"
+              className="rounded-md transition hover:text-slate-950 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none dark:hover:text-white dark:focus:ring-offset-slate-950"
             >
               LinkedIn
             </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             <a
               href={`mailto:${personalInfo.email}`}
               aria-label="Send Derek Konadu an email"
-              className="rounded-md transition hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:hover:text-white dark:focus:ring-offset-slate-950"
+              className="rounded-md transition hover:text-slate-950 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none dark:hover:text-white dark:focus:ring-offset-slate-950"
             >
               Email
             </a>
