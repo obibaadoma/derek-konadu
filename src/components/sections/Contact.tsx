@@ -43,6 +43,12 @@ const Contact = () => {
               >
                 GitHub
               </Button>
+              <Button
+              href="/Derek-Akrasi-Konadu-Resume.pdf"
+              className="border border-white/20 text-white hover:bg-white/10"
+            >
+              Download Résumé
+            </Button>
             </div>
           </div>
 

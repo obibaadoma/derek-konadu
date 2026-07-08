@@ -2,15 +2,16 @@ type ButtonProps = {
   children: React.ReactNode;
   href?: string;
   className?: string;
+  download?: boolean;
 };
 
-const Button = ({ children, href, className = "" }: ButtonProps) => {
+const Button = ({ children, href, className = "", download = false }: ButtonProps) => {
   const baseClasses =
     "inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-slate-950";
 
   if (href) {
     return (
-      <a href={href} className={`${baseClasses} ${className}`}>
+      <a href={href} download={download} className={`${baseClasses} ${className}`}>
         {children}
       </a>
     );
